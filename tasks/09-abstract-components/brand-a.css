@@ -1,0 +1,31 @@
+.brand-a-input {
+  margin: 0 10% 20px;
+  width: 80%;
+}
+
+.brand-a-input input {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.brand-a-input input:focus {
+  border: solid 5px #969696;
+  outline: none;
+}
+
+.brand-a-input .error {
+  padding-top: 10px;
+  color: #DE5500;
+  font-size: 12px;
+  font-weight: bold;
+}

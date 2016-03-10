@@ -1,0 +1,24 @@
+.component-icon-list {
+  list-style: none;
+}
+
+.component-icon-list-item {
+}
+
+.component-icon-list-item .icon {
+  display: block;
+  float: left;
+  background-size: 16px;
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+}
+
+.component-icon-list-item .icon.tick {
+  background-image: url(/assets/img/icon-tick.png);
+}
+
+.component-icon-list-item .icon.cross {
+  background-image: url(/assets/img/icon-cross.png);
+}

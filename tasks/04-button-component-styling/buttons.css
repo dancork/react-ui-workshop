@@ -1,0 +1,128 @@
+/* Component Styling */
+
+.component-button {
+  background: #cc7a6f;
+  border: 1px solid #c25f51;
+  color: #fafafa;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 0 20px;
+  display: block;
+  white-space: nowrap;
+
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.4em;
+
+  width: 50%;
+
+  cursor: pointer;
+}
+
+.component-button:hover,
+.component-button:active {
+  background: #c25f51;
+}
+
+
+
+/* OMG these styles are so bad and need refactoring */
+button {
+  display: block;
+  width:50%;
+  padding:1em;
+  margin:1rem auto;
+}
+
+.rounded {
+  font-size: 18px;
+  border-radius: 2em;
+  background-image:
+    -webkit-linear-gradient(
+      red, #f06d06
+    );
+  background-image:
+    linear-gradient(
+      red, #f06d06
+    );
+}
+.rounded:hover {
+  background-image:
+    -webkit-linear-gradient(
+      #f06d06, red
+    );
+  background-image:
+    linear-gradient(
+      #f06d06, red
+    );
+}
+
+.horrible {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  color:firebrick;
+  border-radius: 4px;
+  background-image:
+    -webkit-linear-gradient(
+      #bada55, lime
+    );
+  background-image:
+    linear-gradient(
+      #bada55, lime
+    );
+}
+.horrible:hover {
+  background-image:
+    -webkit-linear-gradient(
+      lime, #bada55
+    );
+  background-image:
+    linear-gradient(
+      lime, #bada55
+    );
+}
+
+.aaargh {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  width:50px;
+  font-size:10px;
+  font-weight:bold;
+  color:tomato;
+  background:dodgerblue;
+  border:none;
+}
+.aaargh:hover{
+  background:powderblue;
+  color:goldenrod;
+}
+
+
+.checkout {
+  font-family: 'Courier New', Courier, monospace;
+  font-size:32px;
+  border-radius:10px;
+  background: -webkit-linear-gradient(top left, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%);
+  background: linear-gradient(to bottom right, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%);
+}
+.checkout:hover {
+  background: -webkit-linear-gradient(bottom right, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%);
+  background: linear-gradient(to top left, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%);
+
+}
+
+.order {
+    width:170px;
+    height:66px;
+    display:block;
+    background-image: url(/assets/img/naasty.png);
+		display:block;
+		color:transparent;
+}
+.order:hover {
+  background-position:left bottom;
+}

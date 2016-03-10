@@ -1,0 +1,46 @@
+.component-alert {
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  background: #EEE;
+  border: 1px solid #868686;
+  line-height: 1em;
+}
+
+.component-alert h4 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.component-alert p {
+  margin: 0;
+}
+
+.component-alert + .component-alert {
+  margin-top: 10px;
+}
+
+.component-alert.success {
+  background: #b6d97f;
+  border: 1px solid #43660c;
+}
+
+.component-alert.error {
+  background: #ff7d7d;
+  border: 1px solid #8d1412;
+}
+
+.component-alert.warning {
+  background: #fad980;
+  border: 1px solid #6b4817;
+}
+
+.component-alert.large {
+  font-size:1.8em;
+}
+
+.component-alert.small {
+  font-size: 0.7em;
+}

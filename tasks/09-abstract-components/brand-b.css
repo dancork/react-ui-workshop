@@ -1,0 +1,31 @@
+.brand-b-input {
+  margin: 0 10% 20px;
+  width: 80%;
+}
+
+.brand-b-input input {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.brand-b-input input:focus {
+  outline: none;
+  border-bottom: solid 2px #969696;
+}
+
+.brand-b-input .error {
+  padding-top: 10px;
+  color: #E80000;
+  font-size: 14px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>React UI Workshop | <%= htmlWebpackPlugin.options.title %></title>
+  <link href="/assets/stylesheets/base.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__link" href="/">
+        <span class="header__logo"></span>
+        <span class="header__heading"><span class="header__heading--blue">React</span> UI Workshop</span>
+      </a>
+    </div>
+  </header>
+  <section class="section section__task">
+    <div class="container">
+      <h1 class="task__title"><%= htmlWebpackPlugin.options.title %></h1>
+      <div class="task__container">
+        <div id="app"></div>
+        <div id="mocha"></div>
+      </div>
+    </div>
+  </section>
+  <div class="navigation">
+    <% if (htmlWebpackPlugin.options.previous) { %>
+      <a href="/<%= htmlWebpackPlugin.options.previous %>/">Previous</a>
+    <% } %>
+    <% if (htmlWebpackPlugin.options.next) { %>
+      <a href="/<%= htmlWebpackPlugin.options.next %>/">Next</a>
+    <% } %>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copy">&copy; 2016 <a href="http://twitter.com/jackdcrawford" target="_blank">Jack Crawford</a> &amp; <a href="http://twitter.com/dancork" target="_blank">Dan Cork</a></p>
+    </div>
+  </footer>
+</body>
+</html>

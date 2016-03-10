@@ -1,0 +1,28 @@
+.component-button {
+  background: #cc7a6f;
+  border: 1px solid #c25f51;
+  color: #fafafa;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 0 20px;
+  display: block;
+  white-space: nowrap;
+
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.4em;
+
+  width: 50%;
+
+  cursor: pointer;
+}
+
+.component-button:hover,
+.component-button:active {
+  background: #c25f51;
+}

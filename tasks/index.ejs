@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>React UI Workshop</title>
+  <link href="/assets/stylesheets/base.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header class="header header__hero">
+    <div class="container header__container header__hero__container">
+      <a class="header__link" href="/">
+        <span class="header__logo header__hero__logo"></span>
+        <h1 class="header__heading header__hero__heading"><span class="header__heading--blue header__hero__heading--blue">React</span> UI Workshop</h1>
+      </a>
+    </div>
+  </header>
+  <section class="section section__home">
+    <div class="container">
+      <ol class="tasklist">
+        <% for (var i=0; i<htmlWebpackPlugin.options.tasks.length; i++) { %>
+          <li class="tasklist__item">
+            <a href="<%= htmlWebpackPlugin.options.tasks[i] %>/" class="tasklist__item__link"><%= htmlWebpackPlugin.options.tasks[i].replace(/-/g, ' ').replace(/[0-9]/g, '') %></a>
+          </li>
+        <% } %>
+      </ol>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer_copy">&copy; 2016 <a href="http://twitter.com/jackdcrawford" target="_blank">Jack Crawford</a> &amp; <a href="http://twitter.com/dancork" target="_blank">Dan Cork</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.component-stepper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component-stepper button {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 40px;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px;
+  height: 40px;
+  display: block;
+  border: 0;
+  background: #fafafa;
+  color: #c9c9c9;
+  border: solid 1px #c9c9c9;
+  cursor: pointer;
+}
+
+.component-stepper button:first-of-type {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+.component-stepper button:last-of-type {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.component-stepper input {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  border-top: solid 1px #c9c9c9;
+  border-bottom: solid 1px #c9c9c9;
+  text-align: center;
+}
