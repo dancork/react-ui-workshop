@@ -4,7 +4,7 @@
  *    A form field where the value can be increased and
  *    decreased via + and - buttons
  *
- *    - Use this.state.value to add this
+ *    - Use this.state.value as the value of the input
  *    - Add an onClick listener to the - button to decrease
  *      the state value by 1 using this.setState()
  *    - Add an onClick listener to the + button to increase
